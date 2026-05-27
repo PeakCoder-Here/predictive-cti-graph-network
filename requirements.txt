@@ -1,0 +1,15 @@
+# --- Core (ingestion + database + dashboard) ---
+neo4j==5.26.0
+requests==2.32.3
+python-dotenv==1.0.1
+pandas==2.2.3
+streamlit==1.40.1
+pyvis==0.3.2
+
+# --- Machine Learning layer (Phase 5) ---
+# Python 3.13 needs torch >= 2.6. On Windows, plain pip installs the CPU build.
+# torch-geometric is pure-python and works with any recent torch.
+torch>=2.6
+torch-geometric>=2.6
+sentence-transformers>=3.3
+scikit-learn>=1.5

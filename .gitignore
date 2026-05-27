@@ -1,0 +1,20 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Data caches & model artifacts
+data/raw/
+data/cache/
+*.pt
+*.pkl
+
+# OS
+.DS_Store
+
+lib/
